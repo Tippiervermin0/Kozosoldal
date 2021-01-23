@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+body{
+    
+    background-image: url(HATTER/hatter1.jpg);
+}
+main{
+    width:80%;
+    max-width: 1000px;
+    background-color: black;
+    color:black;
+    margin:auto;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;   
+}
+article a{
+    color:white;
+    text-decoration: none; 
+}
+p{
+    text-align: justify;
+}
+nav li{
+    list-style-type: none;
+    border: 2px solid red;
+    border-radius: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+article li{
+    list-style-type: none;
+    border: 2px solid red;
+    border-radius: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#navli{
+    list-style-type: none;
+    border: 2px solid darkgreen;
+    border-radius: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#cim{
+    text-align: center;
+    color: white
+}
+header{
+    padding-bottom: 20px;
+}
+
+nav ul{
+    padding-right: 30px;
+}
+article ul{
+    padding: 30px;
+}
+article li{
+    background-color: black;
+}
+nav li:hover{
+    background-color: red;
+}
+article li:hover{
+    background-color: red;
+}
+#navli:hover{
+    background-color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+#nava:hover{
+    color: darkgreen;
+}
+article{
+    background-color:dimgray;
+   
+}
+#articleK img{
+    width: 50%;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px groove gold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#articleM img{
+    width: 50%;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px groove gold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#articleT img{
+    width: 50%;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px groove gold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#articleD img{
+    width: 50%;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px groove gold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#articleZ img{
+    width: 50%;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px groove gold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#articleF img{
+    width: 50%;
+    border: 10px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:dimgray;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+article video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px groove gold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
